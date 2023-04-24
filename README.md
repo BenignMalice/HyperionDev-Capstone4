@@ -20,11 +20,12 @@ Click the "Click to Save for Later" button next to any medication or procedure n
 #### Viewing saved items: 
 Click the "View Later" link in the navbar to view your saved items.
 
-![saveditems](https://user-images.githubusercontent.com/91093650/233989407-dcc0ba9c-5a68-4d92-aaa4-b4ca29745ba8.png)
+
 #### Leaving comments: 
 Fill out the comment form at the bottom of the web page and click the "Submit" button to leave a comment.
 #### Contacting us: 
 Click the "Contact Us" form at the bottom to open the contact form and send a message.
+![saveditems](https://user-images.githubusercontent.com/91093650/233989407-dcc0ba9c-5a68-4d92-aaa4-b4ca29745ba8.png)
 ***
 ### Contributing:
 Contributions to this project are welcome. If you find a bug or have a feature request, please submit an issue. If you would like to contribute code, please fork this repository and create a pull request.
