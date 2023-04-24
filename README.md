@@ -24,7 +24,7 @@ Click the "View Later" link in the navbar to view your saved items.
 #### Leaving comments: 
 Fill out the comment form at the bottom of the web page and click the "Submit" button to leave a comment.
 #### Contacting us: 
-Click the "Contact Us" heading in the footer to open the contact form and send us a message.
+Click the "Contact Us" form at the bottom to open the contact form and send a message.
 
 ### Contributing:
 Contributions to this project are welcome. If you find a bug or have a feature request, please submit an issue. If you would like to contribute code, please fork this repository and create a pull request.
