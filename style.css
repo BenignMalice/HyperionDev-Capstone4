@@ -457,6 +457,25 @@ td {
   background-color: #0a80f7;
 }
 
+.adenosine-heading {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+.adenosine-heading #adenosine-img {
+  height: 125px;
+  width: auto;
+}
+
+.adenosine-h1 h1 {
+  border: solid red 4px;
+  margin: 20px auto;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  background-color: #0a80f7;
+}
+
 #savedHeading,
 #commentForm,
 #contactForm {
@@ -577,6 +596,22 @@ td {
   color: white;
   margin-top: 5px;
   display: none;
+}
+
+.intraosseous h1 {
+  border: solid #0a80f7 4px;
+  text-align: center;
+  width: 40%;
+  margin: 5px auto;
+  border-radius: 20px;
+  color: red;
+}
+.intraosseous .iocannulation {
+  display: flex;
+  height: 500px;
+  width: 800px;
+  margin: 10px auto;
+  border: red 5px solid;
 }
 
 /* Sets variable for common colour used */
