@@ -1,0 +1,204 @@
+<!-- See _medication-text.scss for styling -->
+<!-- See _aspirin-heading.scss for styling -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>1st Pulse Training</title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- See _logo.scss for styling -->
+        <div class="logo">
+          <!-- Div for Logo at top of Home page -->
+          <a href="index.html"
+            ><img src="images/logo.jpg" alt="1st Pulse logo"
+          /></a>
+        </div>
+
+        <!-- See _nav.scss for styling -->
+        <div class="navbar">
+          <!-- Div for Navigation bar -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- Link to Home page -->
+            <li><a href="medications.html">Medications</a></li>
+            <!-- Link to Medication page -->
+            <li><a href="procedures.html">Procedures</a></li>
+            <!-- Link to Procedure page -->
+            <li><a href="downloads.html">Downloads</a></li>
+            <!-- Link to Links page -->
+          </ul>
+        </div>
+      </header>
+
+      <div class="medication-text">
+        <!-- Div for Main text -->
+
+        <div class="adenosine-heading">
+          <div class="adenosine-img">
+            <img
+              id="adenosine-img"
+              src="images/adenosine.jpg"
+              alt="Ampoule of adenosine"
+            />
+          </div>
+          <div class="adenosine-h1">
+            <h1>Adenosine</h1>
+          </div>
+        </div>
+
+        <div class="split-screen">
+          <div class="screen-left">
+            <h2>Drug Class</h2>
+            <p class="drug-class">
+              Supraventricular anti-arrhythmic; endogenous purine nucleoside
+            </p>
+
+            <h2>Pharmacology</h2>
+            <p class="pharmacology">
+              Conduction in SA and AV node: slows inward Ca2+ flow and therefore
+              decreases automaticity and rate of discharge in SA and AV node
+              cells. Adenosine is produced from the breakdown
+              (de-phosphorylation) of ATP. It blocks the influx of Ca2+ by
+              inhibiting cAMP formation. The above therefore terminates
+              supraventricular arrhythmias due to re-entry pathways involving
+              the AV node (i.e. most PSVTs). SVT's that do not involve the AV
+              node (e.g. Wolf-Parkinson-White syndrome) are usually not
+              terminated by Adenosine; this is particularly true for atrial
+              flutter, atrial fibrillation.
+            </p>
+            <h2>Metabolism</h2>
+            <p class="metabolism">
+              Adenosine has a rapid onset of action with a very short half-life
+              and undergoes rapid intracellular metabolism, either by
+              phosphorylation, forming adenosine monophosphate, or deamination.
+            </p>
+            <h2>Indications</h2>
+            <ul class="indications">
+              <li>
+                Stable patients with narrow-complex Paroxysmal Supra-Ventricular
+                Tachycardia, to terminate the reentry SVT.
+              </li>
+            </ul>
+          </div>
+
+          <div class="screen-right">
+            <h2>Dosage</h2>
+            <h3 class="dosage">
+              Adults: 6mg rapid IV push (followed immediately by 20ml N/S IVI
+              push) (Draw up adenosine dose and flush in two separate syringes).
+              12mg rapid IV push if no response after 2 minutes. Another 12mg
+              rapid IV push may be considered if no response after 2 minutes.
+              <br />
+              Children: 0.1mg/kg rapid IV push (followed immediately by 5ml N/S
+              IVI push. 0.2mg/kg rapid IV push if no response after 2 minutes.
+              Another 0.2mg/kg rapid IV push may be considered if no response
+              after 2 minutes.
+            </h3>
+
+            <h2>Contraindications</h2>
+            <ul class="contraindications">
+              <li>Known hypersensitivity</li>
+              <li>Sick sinus syndrome</li>
+              <li>Underlying second or third degree AV heart block</li>
+              <li>Poisoning / drug induced tachycardia</li>
+              <li>Atrial flutter & atrial fibrillation</li>
+              <li>Transplanted hearts</li>
+              <li>Wolf-Parkinson-White syndrome</li>
+              <li>Unstable asthmatics</li>
+            </ul>
+            <h2>Precautions</h2>
+            <ul class="precautions">
+              <li>
+                Adenosine has proarrhythmic potential, often inducing
+                ventricular ectopics and V Tach
+              </li>
+              <li>
+                Adenosine can cause clinically significant bradyarrhythmias
+                (incl asystole) & tachyarrhythmias, which may be life
+                threatening
+              </li>
+              <li>
+                Extra caution is required with the elderly population & in
+                patients with sinus node disease
+              </li>
+              <li>Constant ECG monitoring is to occur during administration</li>
+              <li>
+                Avoid in patients taking dipyridamole, carbamazepine (need to
+                halve dose if required)
+              </li>
+              <li>
+                Less effective in patients taking theophyllin – may need to
+                double usual dose.
+              </li>
+              <li>May cause bronchospasm in asthmatics.</li>
+              <li>Patient must be supine during administration</li>
+            </ul>
+          </div>
+
+          <div class="screen-left">
+            <h2>Side Effects</h2>
+            <ul class="side-effects">
+              <li>
+                Vasodilation: flushing/light-headedness/headache/hypotensiion
+              </li>
+              <li>
+                Arrhythmias: chest pain/palpitations/sinus bradycardia/sinus
+                arrest/heart blocks/ asystole/ ventricular ectopics/VFib/SVTs
+              </li>
+              <li>
+                Other:
+                parasthesias/diaphoresis/dyspnea/bronchoconstriction/nausea/metallic
+                taste in mouth/chest tightness
+              </li>
+            </ul>
+
+            <h3>Presentation</h3>
+            <p class="presentation">6mg/2ml glass vial</p>
+
+            <h3>Pharmacokinetics</h3>
+            <table class="meds-table">
+              <!-- See _medications.scss for styling of table -->
+              <thead>
+                <tr>
+                  <th scope="col">Half-life</th>
+                  <th scope="col">Onset of action</th>
+                  <th scope="col">Duration of action</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>5-10 seconds</td>
+                  <td>Immediate</td>
+                  <td>1-2 minutes</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3>Special Notes</h3>
+            <div class="notes">
+              <ul>
+                <li>
+                  Adenosine is administered by an extremely rapid IVI push using
+                  the two syringe technique.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

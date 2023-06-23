@@ -1,0 +1,18 @@
+.adenosine-heading {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+
+  #adenosine-img {
+    height: 125px;
+    width: auto;
+  }
+}
+.adenosine-h1 h1 {
+  border: solid red 4px;
+  margin: 20px auto;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  background-color: $blue;
+}
